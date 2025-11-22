@@ -35,7 +35,7 @@ COPY --from=builder /app/public ./public
 USER appuser
 
 # Expone el puerto que la aplicación utiliza
-EXPOSE 4000
+EXPOSE 3000
 
 # Comando para iniciar la aplicación
-CMD ["npm", "run", "preview", "--", "--host", "0.0.0.0", "--port", "4000"]
+CMD ["npm", "run", "preview", "--", "--host", "0.0.0.0", "--port", "3000"]
