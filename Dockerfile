@@ -12,10 +12,6 @@ RUN npm install --production=false
 # Copia el resto del código fuente
 COPY . .
 
-# Argumento para la URL del backend (se pasa en build time)
-ARG VITE_BACKEND_URL=http://backend-mcp:8080
-ENV VITE_BACKEND_URL=$VITE_BACKEND_URL
-
 # Compila la aplicación
 RUN npm run build
 
