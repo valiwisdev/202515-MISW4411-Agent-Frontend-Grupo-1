@@ -76,7 +76,8 @@ export default function ChatRAG() {
         headers: { 
           "Content-Type": "application/json",
           "Accept": "application/json",
-        },  
+        },
+	credentials: 'include',  
         body: JSON.stringify(requestBody),
       });
   

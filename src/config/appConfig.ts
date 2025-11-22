@@ -35,7 +35,7 @@ export const APP_CONFIG = {
   
   // ========== CONFIGURACIÓN DEL BACKEND ==========
   // URL del backend (Docker container en localhost:8000)
-  BACKEND_URL: "http://localhost:8080",
+  BACKEND_URL: "http://136.115.110.224:8080",
   
   // Endpoints de la API
   RAG_ENDPOINT: "/ask_rag",
