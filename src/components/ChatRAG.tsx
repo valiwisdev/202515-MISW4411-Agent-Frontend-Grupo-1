@@ -77,7 +77,8 @@ export default function ChatRAG() {
           "Content-Type": "application/json",
           "Accept": "application/json",
         },
-	credentials: 'include',  
+        mode: "cors",
+        credentials: "include",
         body: JSON.stringify(requestBody),
       });
   
